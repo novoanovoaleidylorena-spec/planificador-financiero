@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Planificador Financiero</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Planificador Financiero</h1>
+
+<div class="container">
+
+<label>Ingreso mensual</label>
+<input type="number" id="ingreso">
+
+<label>Gastos fijos mensuales</label>
+<input type="number" id="gastos">
+
+<label>Meta de ahorro</label>
+<input type="number" id="meta">
+
+<label>Meses para cumplir la meta</label>
+<input type="number" id="meses">
+
+<button onclick="calcular()">Calcular Plan</button>
+
+<h2 id="resultado"></h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
